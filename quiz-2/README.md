@@ -1,4 +1,4 @@
-CSV file format
+## CSV file format
 
 PID, PPID, CMD
 
@@ -8,7 +8,7 @@ PPID: Parent Process Id
 
 CMD : Command Line
 
-Example Input CSV file:
+## Example Input CSV file:
 
 ``` csv
 1, 0, /sbin/launchd
@@ -23,7 +23,7 @@ Example Input CSV file:
 10, 4, /Applications/Safari.app/Contents/MacOS/Safari
 ```
 
-Example Output JSON:
+## Example Output JSON:
 
 ``` json
 [
@@ -87,6 +87,8 @@ Example Output JSON:
     }
   ]
   ```
+
+## Note:
 
 1. Read the CSV file from command line parameter.
 1. Convert the CSV file stated as a process tree in JSON format, and print it.
