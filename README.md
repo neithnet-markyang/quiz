@@ -16,6 +16,8 @@ one is for the database.
 
 Implement a Golang program to convert CSV file into JSON which follow the quiz-2/README.md described.
 
+https://github.com/neithnet-markyang/quiz/quiz-2
+
 The input file example is here:
 
 https://github.com/neithnet-markyang/quiz/quiz-2/example.csv
