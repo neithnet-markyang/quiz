@@ -3,7 +3,9 @@ CSV file format
 PID, PPID, CMD
 
 PID : Process Id
+
 PPID: Parent Process Id
+
 CMD : Command Line
 
 Example Input CSV file:
@@ -87,4 +89,8 @@ Example Output JSON:
   ```
 
 1. Read the CSV file from command line parameter.
-2. Convert the CSV file stated as a process tree in JSON format, and print it.
+1. Convert the CSV file stated as a process tree in JSON format, and print it.
+1. You could verify your output with some tools, such as:
+
+  - http://jsonviewer.stack.hu
+  - https://vanya.jp.net/vtree/
