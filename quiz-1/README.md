@@ -2,7 +2,7 @@
 
 Implement the RESTful API with Golang which follows this spec:
 
-https://github.com/neithnet-markyang/quiz/quiz-1/swagger.yaml
+https://github.com/neithnet-markyang/quiz/blob/main/quiz-1/swagger.yaml
 
 1. You could choose any web framework to implement it.
 1. Please create 2 containers, one is for the RESTful API and another one is for the database.
